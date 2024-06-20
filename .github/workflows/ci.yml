@@ -13,12 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Run Cmake Tests
+    - name: Run Tests
       run: |
-        cmake -S . -B build
-        cmake --build build
-        cd build
-        ctest
+        sudo apt install g++-10
+        g++ tests/*.cpp
 
     - name: Install Doxygen
       run: sudo apt-get install -y doxygen 
