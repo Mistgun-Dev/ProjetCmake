@@ -1,8 +1,8 @@
-# Projet de calculs Mathématiques en CPP avec Testing CMake
+# Projet de calculs Mathématiques en C++ avec Testing CMake
 
 ## Introduction
 
-Ce projet en CPP implémente plusieurs fonctions mathématiques et propose des tests unitaires pour vérifier leur bon fonctionnement. Les fonctions incluses sont :
+Ce projet en C++ implémente plusieurs fonctions mathématiques et propose des tests unitaires pour vérifier leur bon fonctionnement. Les fonctions incluses sont :
 - Le calcul de la factorielle d'un nombre
 - Le calcul du n-ième terme de la suite de Fibonacci
 - La vérification si une chaîne de caractères est un palindrome
@@ -57,6 +57,10 @@ Calcule la factorielle d'un nombre entier non négatif. La factorielle de `n` (n
 ```c
 int factorielle(int n);
 ```
+#### Exemple d'utilisation
+```c
+int resultat = factorielle(5); // resultat vaut 120
+```
 
 ### 2. Fonction Fibonacci
 
@@ -66,6 +70,10 @@ Calcule du n ième nombre de la suite de fibonacci.
 #### Prototype
 ```c
 int fibonacci(int n);
+```
+#### Exemple d'utilisation
+```c
+int resultat = fibonacci(7); // resultat vaut 13
 ```
 
 ### 3. Fonction palindrome
@@ -77,16 +85,23 @@ Fonction permettant de définir si une chaine de caractère passée en paramètr
 ```c
 int palindrome(const char* str);
 ```
+#### Exemple d'utilisation
+```c
+int resultat = palindrome("radar"); // resultat vaut 1 (vrai), -1 si (faux)
+```
 
-### 3. Fonction prime
+### 4. Fonction prime
 
 #### Description
 Fonction permettant de définir un nombre passé en paramètre est premier ou non
 
 #### Prototype
 ```c
-int prime(int n);
+int nombrePremier(int n);
 ```
-
+#### Exemple d'utilisation
+```c
+int resultat = nombrePremier(17); // resultat vaut 1 (vrai), -1 si (faux)
+```
 
 
