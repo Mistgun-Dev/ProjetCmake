@@ -16,7 +16,10 @@ jobs:
     - name: Run Tests
       run: |
         sudo apt install g++-10
-        g++ tests/*.cpp
+        g++ tests/test_fibonacci.cpp
+	g++ tests/test_factorial.cpp
+	g++ tests/test_prime.cpp
+	g++ tests/test_palindrome.cpp
 
     - name: Install Doxygen
       run: sudo apt-get install -y doxygen 
