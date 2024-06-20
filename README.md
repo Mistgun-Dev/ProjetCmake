@@ -12,6 +12,7 @@ Ce projet en CPP implémente plusieurs fonctions mathématiques et propose des t
 
 Le projet est organisé de la manière suivante :
 
+```bash
 ./
 ├── .github/
 │   └── workflows/
@@ -43,7 +44,7 @@ Le projet est organisé de la manière suivante :
 ├── CMakeLists.txt
 ├── Doxyfile.in
 └── main.cpp
-
+```
 
 ## Fonctions Implémentées
 
