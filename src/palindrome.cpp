@@ -1,5 +1,9 @@
 #include "palindrome.h"
 
+/**
+ * @file palindrome.cpp
+ * @brief Fichier contenant la fonction palindrome definissant sur une CDC est un palindrome
+ */
 
 int palindrome(const char* str) {
     int len = strlen(str);

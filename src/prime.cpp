@@ -1,5 +1,9 @@
 #include "prime.h"
 
+/**
+ * @file prime.cpp
+ * @brief Fichier contenant la fonction permettant de savoir si un nombre est un nombre entier
+ */
 
 int nombrePremier(int n) {
     if (n <= 1) {
