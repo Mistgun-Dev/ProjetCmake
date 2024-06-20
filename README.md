@@ -51,7 +51,7 @@ Le projet est organisé de la manière suivante :
 ### 1. Fonction Factorielle
 
 #### Description
-Calcule la factorielle d'un nombre entier non négatif. La factorielle de `n` (notée `n!`) est le produit de tous les entiers positifs inférieurs ou égaux à `n`. Par convention, `0!` vaut `1`.
+Calcule la factorielle d'un nombre entier non négatif.
 
 #### Prototype
 ```c
