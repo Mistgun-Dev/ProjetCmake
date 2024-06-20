@@ -46,6 +46,20 @@ Le projet est organisé de la manière suivante :
 └── main.cpp
 ```
 
+## Build
+
+### Compilation
+```c
+cmake -S . -B build
+cmake --build build
+cd build && ./MyProject //si besoin de lancer l'exec
+```
+### Tests
+```c
+cd build
+ctest
+```
+
 ## Fonctions Implémentées
 
 ### 1. Fonction Factorielle
