@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libfactorialLib.a CMakeFiles/factorialLib.dir/factorial.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libfactorialLib.a

@@ -7,6 +7,6 @@ enable_testing()
 add_subdirectory(tests)
 add_subdirectory(src)
 
-add_executable(MyProject main.cpp src/*.cpp)
+add_executable(MyProject main.cpp src/factorial.cpp src/fibonacci.cpp src/palindrome.cpp src/prime.cpp)
 target_include_directories(MyProject PRIVATE inc)
 
