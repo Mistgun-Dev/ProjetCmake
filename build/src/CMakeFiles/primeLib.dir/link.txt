@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libprimeLib.a CMakeFiles/primeLib.dir/prime.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libprimeLib.a

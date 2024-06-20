@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libfiboLib.a CMakeFiles/fiboLib.dir/fibonacci.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libfiboLib.a
