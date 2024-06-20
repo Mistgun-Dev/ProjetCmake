@@ -7,6 +7,6 @@
  * @param n L'indice du terme à calculer.
  * @return Le n-ième terme de la suite de Fibonacci.
  */
-int fibbonacci(int n);
+int fibonacci(int n);
 
 #endif

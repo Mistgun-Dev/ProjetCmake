@@ -7,6 +7,6 @@
  * @param n Le nombre à vérifier.
  * @return 1 si le nombre est premier, 0 sinon.
  */
-int palindrome(const char* str);
+int nombrePremier(int n);
 
 #endif
