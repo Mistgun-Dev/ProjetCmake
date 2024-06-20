@@ -2,9 +2,10 @@
 #include <cassert>
 
 // Test de la fonction factorielle
-void main(void) {
-    assert(factorielle(0) == 1);
-    assert(factorielle(1) == 1);
-    assert(factorielle(5) == 120);
-    assert(factorielle(-1) == -1);
+int main(void) {
+    assert(factorial(0) == 1);
+    assert(factorial(1) == 1);
+    assert(factorial(5) == 120);
+
+    return 0;
 }

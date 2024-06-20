@@ -12,6 +12,6 @@ add_executable(test_palindrome test_palindrome.cpp)
 target_link_libraries(test_palindrome palindromeLib)
 add_test(NAME PalindromeTest COMMAND test_palindrome)
 
-add_executable(test_prime test_.cpp)
+add_executable(test_prime test_prime.cpp)
 target_link_libraries(test_prime primeLib)
 add_test(NAME PrimeTest COMMAND test_prime)
