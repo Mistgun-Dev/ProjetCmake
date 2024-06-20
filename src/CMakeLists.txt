@@ -1,6 +1,6 @@
 include_directories(../inc)
 
-add_library(MyProject factorial.cpp)
-add_library(MyProject fibonacci.cpp)
-add_library(MyProject palindrome.cpp)
-add_library(MyProject prime.cpp)
+add_library(factorialLib factorial.cpp)
+add_library(fiboLib fibonacci.cpp)
+add_library(palindromeLib palindrome.cpp)
+add_library(primeLib prime.cpp)
