@@ -1,0 +1,7 @@
+FactorialTest 0 0
+FibonacciTest 0 0
+PalindromeTest 1 0.00784543
+PrimeTest 1 0.00367062
+---
+FactorialTest
+FibonacciTest
